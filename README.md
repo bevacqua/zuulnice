@@ -42,8 +42,7 @@ browserify:
   - transform: jadeify
 ```
 
-You can also configure what's passed as the `opts` to `browserify(opts)` by adding an items with the `options` property.
-
+You can also configure what's passed as the `opts` to `browserify(opts)` by adding an item with the `options` property.
 
 ```yaml
 builder: zuulnice
