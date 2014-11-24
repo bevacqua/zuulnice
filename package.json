@@ -1,0 +1,25 @@
+{
+  "name": "zuulnice",
+  "version": "1.0.0",
+  "description": "Zuul plays nice with Browserify",
+  "main": "zuulnice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevacqua/zuulnice.git"
+  },
+  "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevacqua/zuulnice/issues"
+  },
+  "homepage": "https://github.com/bevacqua/zuulnice",
+  "dependencies": {
+    "browserify": "^6.3.3",
+    "convert-source-map": "^0.4.1",
+    "lodash": "^2.4.1",
+    "yamljs": "^0.2.1"
+  }
+}
