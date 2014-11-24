@@ -26,7 +26,7 @@ function configure (bundler) {
   }
 }
 
-module.exports = function(files, opt, cb) {
+module.exports = function (files, opt, cb) {
   if (typeof opt === 'function') {
     cb = opt;
     opt = {};
@@ -36,7 +36,8 @@ module.exports = function(files, opt, cb) {
   }
   opt.debug = true;
 
-  var bundler = browserify(opt);
+  var browserifyOptions = _.find(bro, 'options');
+  var bundler = browserify(browserifyOptions ? _.assign({}, opt, browserifyOptions.options) : opt);
 
   if (bro) {
     configure(bundler);
