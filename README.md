@@ -48,10 +48,12 @@ You can also configure what's passed as the `opts` to `browserify(opts)` by addi
 ```yaml
 builder: zuulnice
 browserify:
-  - plugin: proxyquire-universal
-  - transform: brfs
+  - transform: coffeeify
   - options:
-    extensions: .js, .json
+      extensions:
+        - .js
+        - .json
+        - .coffee
 ```
 
 # License
