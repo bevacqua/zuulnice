@@ -1,3 +1,5 @@
+### starting with [zuul@1.15.1](https://www.npmjs.org/package/zuul) this module is the default builder in [zuul](https://github.com/defunctzombie/zuul).
+
 # zuulnice
 
 > Zuul plays nice with Browserify
