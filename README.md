@@ -1,4 +1,4 @@
-### starting with [zuul@1.15.1](https://www.npmjs.org/package/zuul) this module is the default builder in [zuul](https://github.com/defunctzombie/zuul).
+### starting with [zuul@1.15.2](https://www.npmjs.org/package/zuul) this module is the default builder in [zuul](https://github.com/defunctzombie/zuul).
 
 # zuulnice
 
