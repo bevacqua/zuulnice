@@ -19,7 +19,7 @@
   "dependencies": {
     "browserify": "^6.3.3",
     "convert-source-map": "^0.4.1",
-    "lodash": "^2.4.1",
+    "lodash": "^4.17.15",
     "yamljs": "^0.2.1"
   }
 }
